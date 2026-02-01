@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:lottie/lottie.dart';
+
 class AboutPage extends StatefulWidget {
   const AboutPage({super.key});
 
@@ -43,7 +43,7 @@ class _AboutPageState extends State<AboutPage> {
         child: Column(
           children: [
             SizedBox(height: 60),
-            Lottie.asset("assets/lottie/Swipe Gesture Left.json"),
+            Image.asset('assets/images/bg.jpg'),
             SizedBox(height: 30),
             GestureDetector(
               onTap: () {},
